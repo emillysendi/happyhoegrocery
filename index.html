@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,18 +33,33 @@
         }
     </style>
 </head>
+
 <body>
     <div class="welcome-container">
         <h1>Welcome to Happy Hoe Grocery Shop</h1>
         <p>Your one-stop shop for fresh farm produce and more!</p>
     </div>
-    <button onclick="redirectToLogin()">Login</button>
-</div>
+    <!-- Add this button code to your welcome page -->
+<a href="stock.html" class="stock-button">Go to Stock Page</a>
 
-<script>
-    function redirectToLogin() {
-        window.location.href = 'login.html';
+<!-- Add this CSS to style the button -->
+<style>
+    .stock-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #3f411c; /* Green color */
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
     }
-</script>
+
+    .stock-button:hover {
+        background-color: #666825; /* Darker green on hover */
+    }
+</style>
+
 </body>
 </html>
