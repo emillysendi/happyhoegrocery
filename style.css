@@ -1,38 +1,49 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('farm-background.jpg'); /* Replace with your farm-related image */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.welcome-container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+.login-container {
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
 }
 
-h1 {
-    color: #2c3e50;
+.login-container h2 {
     margin-bottom: 20px;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #27ae60;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
-button:hover {
-    background-color: #2ecc71;
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #4cae4c;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
 }

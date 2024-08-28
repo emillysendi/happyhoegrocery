@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manager Dashboard</title>
+    <title>Produce Procurement Form</title>
 </head>
 <body>
-    <h1>Welcome to the Manager's Dashboard</h1>
+
+    <body style="background-image: url('fabackground.jpeg'); background-size: cover; background-position: center;">
+        <!-- Your existing content -->
+    </body>
+    
+    <h1>Record Produce Procurement</h1>
+    <form id="procurementForm">
+        <label for="produceName">Produce Name:</label>
+        <input type="text" id="produceName" name="produceName" required><br><br>
+
+        <label for="produceType">Type of Produce:</label>
+        <input type="text" id="produceType" name="produceType" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="tonnage">Tonnage (kg):</label>
+        <input type="number" id="tonnage" name="tonnage" required><br><br>
+
+        <label for="cost">Cost (UgX):</label>
+        <input type="number" id="cost" name="cost" required><br><br>
+
+        <label for="dealerName">Dealer Name:</label>
+        <input type="text" id="dealerName" name="dealerName" required><br><br>
+
+        <label for="branchName">Branch Name:</label>
+        <select id="branchName" name="branchName" required>
+            <option value="Central">Central</option>
+            <option value="East">East</option>
+            <option value="West">West</option>
+            <option value="North">North</option>
+        </select><br><br>
+
+        <label for="contact">Contact (Phone Number):</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="salePrice">Sale Price (UgX):</label>
+        <input type="number" id="salePrice" name="salePrice" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="scriptt.js"></script>
+
 </body>
 </html>

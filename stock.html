@@ -1,18 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <style>
+        body {
+            background-color: #6f7738;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    
+    </style>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stock page </title>
+    <title>Stock Page</title>
+    <h3> login in for admin use!</h3>
+    <style>
+        .stock-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .stock-item {
+            width: 200px;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .stock-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .stock-item .description {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <button onclick="redirectToLogin()">Login</button>
-</div>
-
-<script>
-    function redirectToLogin() {
-        window.location.href = 'login.html';
-    }
-</script> 
+    <h1>Stock Page</h1>
+    <div class="stock-container">
+        <div class="stock-item">
+            <img src="rice.jpg" alt="Product 1">
+            <div class="description">
+                <p>Product 1</p>
+                <p>Available: 50 kilos</p>
+            </div>
+        </div>
+        <div class="stock-container">
+            <div class="stock-item">
+                <img src="beans.jpg" alt="Product 1">
+                <div class="description">
+                    <p>Product 2</p>
+                    <p>Available: 70 kilos</p>
+                </div>
+            </div>
+            <div class="stock-container">
+                <div class="stock-item">
+                    <img src="peas.jpg" alt="Product 1">
+                    <div class="description">
+                        <p>Product 3</p>
+                        <p>Available: 40 kilos</p>
+                    </div>
+                </div>
+                <div class="stock-container">
+                    <div class="stock-item">
+                        <img src="corn.jpg" alt="Product 1">
+                        <div class="description">
+                            <p>Product 4</p>
+                            <p>Available: 100 kilos</p>
+                        </div>
+                    </div>
+                    <div class="stock-container">
+                        <div class="stock-item">
+                            <img src="soyabeans.jpg" alt="Product 1">
+                            <div class="description">
+                                <p>Product 5</p>
+                                <p>Available: 80 kilos</p>
+                            </div>
+                        </div>
+                        <div class="stock-container">
+                            <div class="stock-item">
+                                <img src="gnuts.jpg" alt="Product 1">
+                                <div class="description">
+                                    <p>Product 6</p>
+                                    <p>Available: 60 kilos</p>
+                                </div>
+                            </div>
+                                </div>
+<body>
+<h2>Login</h2>
+<form id="loginForm">
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br><br>
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password"><br><br>
+<button type="submit">Login</button>
+</form>
+<p id="message"></p>
+                                
+<script src="script.js"></script>
+ </body>
 </body>
 </html>

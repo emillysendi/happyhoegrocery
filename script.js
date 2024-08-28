@@ -15,13 +15,20 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
         username: "salesagent",
         password: "sales123"
     };
+
+    const ownerCredentials = {
+        username: "owner",
+        password: "owner123"
+    };
     
     // Check credentials
     if (username === managerCredentials.username && password === managerCredentials.password) {
         window.location.href = "manager_dashboard.html";
     } else if (username === salesAgentCredentials.username && password === salesAgentCredentials.password) {
         window.location.href = "sales.agent.dashboard.html";
-    } else {
+    } else if (username===ownerCredentials.username && password===ownerCredentials.password) {
+         window.location.href = "owner.dashboard.html"; 
+         } else {
         document.getElementById("message").textContent = "Invalid credentials!";
     }
 });
