@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Light green background */
+    color: #1b5e20; /* Dark green text */
+}
+
+header {
+    background-color: #43a047; /* Medium green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #388e3c; /* Slightly darker green */
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #2e7d32; /* Even darker green */
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #c8e6c9; /* Very light green for sections */
+    border: 1px solid #a5d6a7; /* Border with a light green shade */
+}
+
+h2 {
+    color: #2e7d32; /* Darker green for section headers */
+}
