@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #447097;
     margin: 0;
     padding: 20px;
 }
@@ -8,7 +8,7 @@ body {
 .dashboard {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #809ecb;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -40,7 +40,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #818aba;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #213688;
 }
 
 #result {
